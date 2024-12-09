@@ -1,4 +1,4 @@
-#ifndef DOUBLY_LINKED_LIST
+﻿#ifndef DOUBLY_LINKED_LIST
 #define DOUBLY_LINKED_LIST
 
 #include "Deposit.h"

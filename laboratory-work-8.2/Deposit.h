@@ -1,4 +1,4 @@
-#ifndef DEPOSIT
+﻿#ifndef DEPOSIT
 #define DEPOSIT
 
 #include <string>

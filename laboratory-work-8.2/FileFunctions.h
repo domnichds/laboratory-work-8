@@ -1,4 +1,4 @@
-#ifndef FILE_FUNCTIONS
+﻿#ifndef FILE_FUNCTIONS
 #define FILE_FUNCTIONS
 
 #include <vector>

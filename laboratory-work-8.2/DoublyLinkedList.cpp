@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <vector>
 #include <fstream>
@@ -105,10 +105,10 @@ void print_list(DoublyLinkedList& list)
 	while (current != nullptr)
 	{
 		cout << "----------------------------------------" << endl;
-		cout << setw(27) << left << "Íàçâàíèå: " << (*current).data.name << endl;
-		cout << setw(24) << left << "Ñóììà: " << (*current).data.summ << endl;
-		cout << setw(25) << left << "Âàëþòà: " << (*current).data.currency << endl;
-		cout << setw(30) << left << "Ïðîöåíòíàÿ ñòàâêà: " << (*current).data.percent << "%" << endl;
+		cout << setw(27) << left << "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ: " << (*current).data.name << endl;
+		cout << setw(24) << left << "Ð¡ÑƒÐ¼Ð¼Ð°: " << (*current).data.summ << endl;
+		cout << setw(25) << left << "Ð’Ð°Ð»ÑŽÑ‚Ð°: " << (*current).data.currency << endl;
+		cout << setw(30) << left << "ÐŸÑ€Ð¾Ñ†ÐµÐ½Ñ‚Ð½Ð°Ñ ÑÑ‚Ð°Ð²ÐºÐ°: " << (*current).data.percent << "%" << endl;
 		current = (*current).next;
 	}
 	cout << endl;
